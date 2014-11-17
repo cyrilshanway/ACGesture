@@ -26,6 +26,14 @@
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="X6Y-vp-Hnf" appends="YES" id="sWm-Sn-XII"/>
                             <outletCollection property="gestureRecognizers" destination="1Xx-gt-2wH" appends="YES" id="Tdj-zl-Q5O"/>
+                            <outletCollection property="gestureRecognizers" destination="vyO-wg-xLS" appends="YES" id="KI5-76-8Qh"/>
+                            <outletCollection property="gestureRecognizers" destination="j9t-f6-Hga" appends="YES" id="hDo-Pd-nzD"/>
+                            <outletCollection property="gestureRecognizers" destination="Rzr-Z9-rS9" appends="YES" id="zOd-Aa-Ahf"/>
+                            <outletCollection property="gestureRecognizers" destination="sS8-ec-EhY" appends="YES" id="Qv5-9i-hmL"/>
+                            <outletCollection property="gestureRecognizers" destination="J4l-mG-HZ5" appends="YES" id="1UK-gy-vug"/>
+                            <outletCollection property="gestureRecognizers" destination="Z5s-Im-8MM" appends="YES" id="3Qp-Jx-984"/>
+                            <outletCollection property="gestureRecognizers" destination="rre-SB-xGA" appends="YES" id="l8p-39-xvx"/>
+                            <outletCollection property="gestureRecognizers" destination="UxV-nb-UDt" appends="YES" id="6Pf-w2-DGT"/>
                         </connections>
                     </view>
                 </viewController>
@@ -40,6 +48,46 @@
                         <action selector="twoTapRecognizer:" destination="BYZ-38-t0r" id="fon-UU-l2N"/>
                     </connections>
                 </tapGestureRecognizer>
+                <pinchGestureRecognizer id="vyO-wg-xLS">
+                    <connections>
+                        <action selector="pinchRecognizer:" destination="BYZ-38-t0r" id="7vk-Qf-Rtp"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="j9t-f6-Hga">
+                    <connections>
+                        <action selector="swipeRecognizer:" destination="BYZ-38-t0r" id="7BW-Vk-21a"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="Rzr-Z9-rS9">
+                    <connections>
+                        <action selector="swipeRecognizer:" destination="BYZ-38-t0r" id="1aP-dK-5cw"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="sS8-ec-EhY">
+                    <connections>
+                        <action selector="swipeRecognizer:" destination="BYZ-38-t0r" id="zvK-Qh-6tf"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="J4l-mG-HZ5">
+                    <connections>
+                        <action selector="swipeRecognizer:" destination="BYZ-38-t0r" id="uEO-cQ-Ffk"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Z5s-Im-8MM">
+                    <connections>
+                        <action selector="longPressRecognizer:" destination="BYZ-38-t0r" id="N6f-d4-fsH"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <rotationGestureRecognizer id="rre-SB-xGA">
+                    <connections>
+                        <action selector="rotationRecognizer:" destination="BYZ-38-t0r" id="Jir-BC-KS2"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="UxV-nb-UDt">
+                    <connections>
+                        <action selector="panRecognizer:" destination="BYZ-38-t0r" id="GjU-dX-2hf"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="117.86666666666666" y="305.77333333333326"/>
         </scene>
